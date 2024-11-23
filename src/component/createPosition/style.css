@@ -1,0 +1,84 @@
+div.createPosition {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #00000030;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.createPosition div.content {
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  padding: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+div.createPosition div.content div.frame1 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+div.createPosition .form {
+  display: flex;
+  flex-direction: column;
+}
+div.createPosition div.frame {
+  margin-bottom: 10px;
+}
+div.createPosition div.frame div.title {
+  color: red;
+  font-family: 600;
+  margin-bottom: 10px;
+}
+
+div.createPosition div.frame div.title span {
+  color: black;
+}
+
+div.createPosition div.frame2 div.title {
+  color: red;
+  font-family: 600;
+  margin-bottom: 10px;
+}
+
+div.createPosition div.frame2 div.title span {
+  color: black;
+}
+
+div.createPosition input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+div.createPosition div.chooseStatus {
+  display: flex;
+  gap: 10px;
+}
+div.createPosition button {
+  padding: 10px;
+  width: 50px;
+  position: relative;
+  top: 20px;
+  left: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.createPosition button:hover {
+  background-color: #0056b3;
+}
